@@ -83,9 +83,8 @@ export default function PrintKasButton({ data }: { data: any[] }) {
         fillColor: [255, 255, 255], // Header Putih
         textColor: [22, 163, 74], // Teks Hijau
         fontStyle: "bold",
-        lineWidth: 0, // Header tanpa border vertikal tebal
-        borderBottomWidth: 1.5, // Garis bawah tebal di header
-        borderColor: [22, 163, 74],
+        lineWidth: 0.1, 
+        lineColor: [22, 163, 74], // <-- PERBAIKAN DI SINI (tadi borderColor)
       },
       alternateRowStyles: {
         fillColor: [245, 250, 245], // Baris selang-seling warna hijau sangat muda
